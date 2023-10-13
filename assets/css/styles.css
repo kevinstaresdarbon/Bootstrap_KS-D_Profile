@@ -8,22 +8,50 @@
     --theme-border-style: 3px solid #d4324a;
 }
 
+body{
+    background-color: #800D98;
+}
 
 a {
     text-decoration: none;
     color: var(--theme1)
 }
 
-
-
 /* div {
     border: 2px solid blue;
 } */
-
 
 .nav-card-style {
     border: var(--theme-border-style);
     background-color: #FBA7AA;
     border-radius: var(--theme-radius);
-    height: 100%;
+    height: auto;
+}
+
+.profile-img{
+    background-image: url(../images/ksd-profile-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 240px;
+    width: 240px;
+    border: var(--theme-border-style);
+    border-radius: var(--theme-radius);
+}
+
+.cool-subtitle{
+    background-color: var(--theme5);
+    color: var(--theme4);
+    border: var(--theme-border-style);
+    border-radius: var(--theme-radius);
+    width: 23rem;
+}
+
+.main-content-style{
+    border: var(--theme-border-style);
+    border-radius: var(--theme-radius);
+    color: var(--theme5);
+    background-color: var(--theme4);
+    margin: 4rem;
+    width: calc(100% - 8rem);
 }
