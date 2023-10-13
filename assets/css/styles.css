@@ -1,3 +1,29 @@
-div {
+:root {
+    --theme1: #2D060B;
+    --theme2: #92243D;
+    --theme3: #d4324a;
+    --theme4: #FBA7AA;
+    --theme5: #800D98;
+    --theme-radius: 8px;
+    --theme-border-style: 3px solid #d4324a;
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--theme1)
+}
+
+
+
+/* div {
     border: 2px solid blue;
+} */
+
+
+.nav-card-style {
+    border: var(--theme-border-style);
+    background-color: #FBA7AA;
+    border-radius: var(--theme-radius);
+    height: 100%;
 }
