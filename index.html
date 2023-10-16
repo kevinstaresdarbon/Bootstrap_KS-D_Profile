@@ -70,10 +70,10 @@
         <div class="row" id="about" style="min-height: 8rem">
             <div class="col-12">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-2">
+                    <div class="col-4 col-sm-2">
                         <p class="fs-1 fw-bold">About</p>
                     </div>
-                    <div class="col-10" style="min-height: 8rem">
+                    <div class="col-8 col-sm-10" style="min-height: 8rem">
                         <p class="fs-4 fw-bold">I am an enthusiastic hobbyist who is turning his passion into a career.
                         </p>
                         <p class="fs-4 fw-bold">IT has been a hobby of mine for over twenty years.</p>
@@ -89,11 +89,64 @@
         <div class="row" id="skills" style="min-height: 8rem">
             <div class="col-12 p-0">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-2">
+                    <div class="col-4 col-sm-2">
                         <p class="fs-1 fw-bold">Skills</p>
                     </div>
-                    <div class="col-10">
-                        <p>Some skills text goes here</p>
+                    <div class="col-8 col-sm-10 p-3">
+                        <!-- Copied wholesale and adapted from the getbootstrap.com docs accordion element "always open"-->
+                        <div class="accordion" id="open-accordion">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <!-- Changed the aria-expanded to false and add the collapsed class to thhis button so the first item starts closed-->
+                                <button class="accordion-button collapsed fs-4 fw-bold " type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
+                                  Interpersonal skills
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse">
+                                <div class="accordion-body fs-5 fw-bold">
+                                   I am a calm and collected individual who holds himself with respect and offers that same standard of respect to everyone.  I am an excellent communicator whether in written english, verbally or otherwise. 
+                                   I am a lifelong learner who is able to work well in a team and independently. <br />
+                                   I am a patient and skillful tutor.
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                  Web Development and Frameworks
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body fs-5 fw-bold">
+                                    I am familiar with: <br />
+                                    CSS3. <br />
+                                    HTML5. <br />
+                                    Bootstrap5. <br />
+                                    Javascript ES6. <br />
+                                    Express.<br />
+                                    React. <br />
+                                    Vue. <br />
+                                    Webpack. <br />
+                                    Vite. <br />
+                                    Proxmox ve7 Hypervisor. <br />
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                              <h2 class="accordion-header">
+                                <button class="accordion-button collapsed fs-4 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                  Others
+                                </button>
+                              </h2>
+                              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse fs-5 fw-bold">
+                                <div class="accordion-body">
+                                  I hold an upper-second degree in Mathematics. <br />
+                                  I hold an English Worldwide Certificate in TEFL and have tutored English in language schools internationally and nationally. <br />
+                                  I have a Mensa certified I.Q. of 144 which puts me on the 97th percentile for speed of learning and application<br />
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -101,10 +154,10 @@
         <div class="row" id="work">
             <div class="col-12 p-0">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-4 col-sm-2">
                         <p class="fs-1 fw-bold">work</p>
                     </div>
-                    <div class="col-10 p-3">
+                    <div class="col-8 col-sm-10 p-3">
                         <!--  Copied wholesale and adapted from getbootstrap.com-->
                         <a href="https://kevinstaresdarbon.github.io/SimonGame/" target="_blank">
                             <div class="card text-center h-100 w-100 shadow-effect">
@@ -114,7 +167,7 @@
                                     class="card-img-overlay p-3 d-flex flex-column justify-content-center mt-auto custom-bg">
                                     <h5 class="card-title w-100 scaling-fs">Simon's Game</h5>
                                     <p class="card-text w-100 scaling-fs">A little JS and JQuery with animations, HTML5
-                                        CSS3. Best viewed on a desktop</p>
+                                        CSS3.</p>
                                 </div>
                             </div>
                         </a>
@@ -125,8 +178,8 @@
         <div class="row" id="work-secondary">
             <div class="col-12 p-0">
                 <div class="row">
-                    <div class="col-2"></div>
-                    <div class="col-10 p-3">
+                    <div class="col-4 col-sm-2"></div>
+                    <div class="col-8 col-sm-10 p-3">
                         <div class="row">
                             <div class="col-12 col-lg-6 col-xxl-3 mb-3">
                                 <a href="https://kevinstaresdarbon.github.io/snippet_cheatsheet/" target="_blank">
@@ -189,10 +242,10 @@
         <div class="row" id="contact" style="min-height: 8rem">
             <div class="col-12 p-0">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-2">
+                    <div class="col-4 col-sm-2">
                         <p class="fs-1 fw-bold">Contact Me</p>
                     </div>
-                    <div class="col-10">
+                    <div class="col-8 col-sm-10">
                         <!-- some contact element goes here-->
                     </div>
                 </div>
