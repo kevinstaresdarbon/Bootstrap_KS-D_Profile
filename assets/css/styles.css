@@ -61,4 +61,17 @@ a {
     background-color: bisque;
     margin: 1rem;
     padding: 1rem;
+    opacity: 0.8;
+}
+
+.shadow-effect{
+    transition: all 0.4s ease-in-out;
+    border: var(--theme-border-style);
+    border-radius: var(--theme-radius);
+}
+
+.shadow-effect:hover{
+    box-shadow:
+    inset 0px 0px 16px rgb(68, 14, 43),
+    0px 0px 23px rgb(46, 2, 26);
 }
