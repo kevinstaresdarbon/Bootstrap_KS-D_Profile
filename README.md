@@ -65,7 +65,7 @@ iPad Air:
 ![Alt iPad_Air](./assets/images/screenshot-(iPad%20Air).png)  
   
 iPhone 12 Pro:  
-![Alt Phone](./assets/images/screenshot-(iPhone%2012%20Pro).png)  
+![Alt Phone](./assets/images/screenshot-(Samsung%20Galaxy%20S8+).png)  
   
 ## License  
   
