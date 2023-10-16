@@ -52,6 +52,13 @@ a {
     border-radius: var(--theme-radius);
     color: var(--theme5);
     background-color: var(--theme4);
-    margin: 4rem;
-    width: calc(100% - 8rem);
+    width: calc(100% - 2rem);
+}
+
+.custom-bg{
+    width: 12rem;
+    height:10rem;
+    background-color: bisque;
+    margin: 1rem;
+    padding: 1rem;
 }

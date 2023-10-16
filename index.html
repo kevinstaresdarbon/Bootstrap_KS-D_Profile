@@ -24,7 +24,8 @@
                     <div class="card-body d-flex w-100 h-100">
                         <p class="card-title mb-0 me-5 p-3 fs-3 align-self-start nav-card-style fw-bold">
                             Kevin Stares-Darbon</p>
-                        <div class="p-3 fs-4 align-self-end ms-auto nav-card-style d-flex flex-row d-sm-flex flex-sm-row align-items-center justify-content-center fw-bold" style="min-width: 17rem;">
+                        <div class="p-3 fs-4 align-self-end ms-auto nav-card-style d-flex flex-row d-sm-flex flex-sm-row align-items-center justify-content-center fw-bold"
+                            style="min-width: 17rem;">
                             <a href="#about" class="card-link">About</a>
                             <a href="#work" class="card-link">Work</a>
                             <a href="#contact" class="card-link">Contact</a>
@@ -38,6 +39,7 @@
                 <div class="container-fluid p-0">
                     <div class="row">
                         <div class="col-sm-12 m-0">
+                            <!-- I wrote this card following the examples on getbootstrap.com examples -->
                             <div class="card" style="background-color: #800D98;">
                                 <img src="./assets/images/02-hero-bg.jpg"
                                     style="object-fit: cover; width: 100vw; height: 22rem; opacity: 0.67;">
@@ -47,9 +49,10 @@
                                         </div>
                                         <div class="col-4 d-flex flex-column align-items-center">
                                             <div class="profile-img mb-4"></div>
-                                            <p class="cool-subtitle fs-2 px-2 m-0 ml-2 text-center">Web Developer for Hire </p>
+                                            <p class="cool-subtitle fs-2 px-2 m-0 ml-2 text-center">Web Developer for
+                                                Hire </p>
                                         </div>
-                                        <div class="col-4">    
+                                        <div class="col-4">
                                         </div>
                                     </div>
 
@@ -63,19 +66,22 @@
         </div>
     </div>
 
-    <div class="container-fluid p-5 main-content-style">
+    <div class="container-fluid p-5 m-3 main-content-style">
         <div class="row" id="about" style="min-height: 8rem">
             <div class="col-12">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-3">
+                    <div class="col-2">
                         <p class="fs-1 fw-bold">About</p>
                     </div>
-                    <div class="col-9" style="min-height: 8rem">
-                        <p class="fs-4 fw-bold">I am an enthusiastic hobbyist who is turning his passion in a career.</p>
+                    <div class="col-10" style="min-height: 8rem">
+                        <p class="fs-4 fw-bold">I am an enthusiastic hobbyist who is turning his passion into a career.
+                        </p>
                         <p class="fs-4 fw-bold">IT has been a hobby of mine for over twenty years.</p>
-                        <p class="fs-4 fw-bold">In the last few years web design and web development have caught my interest.</p>
-                        <p class="fs-4 fw-bold">I have taken web development bootcamps on udemy and also studied some of their react, vua and express courses.</p>
-                        <p class="fs-4 fw-bold">I am currently taking the "edX: Front-End Web Develeopment Bootcamp".</p>
+                        <p class="fs-4 fw-bold">In the last few years web design and web development have caught my
+                            interest.</p>
+                        <p class="fs-4 fw-bold">I have taken web development bootcamps on udemy and also studied some of
+                            their react, vue and express courses.</p>
+                        <p class="fs-4 fw-bold">I am currently taking the "edX: Front-End Web Development Bootcamp".</p>
                     </div>
                 </div>
             </div>
@@ -83,44 +89,97 @@
         <div class="row" id="skills" style="min-height: 8rem">
             <div class="col-12 p-0">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-3">
-                        <p>Skills</p>
+                    <div class="col-2">
+                        <p class="fs-1 fw-bold">Skills</p>
                     </div>
-                    <div class="col-9">
+                    <div class="col-10">
                         <p>Some skills text goes here</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row" id="work" style="min-height: 22rem">
+        <div class="row" id="work">
             <div class="col-12 p-0">
-                <div class="row" style="min-height: 22rem">
-                    <div class="col-3">
-                        <p>work</p>
+                <div class="row">
+                    <div class="col-2">
+                        <p class="fs-1 fw-bold">work</p>
                     </div>
-                    <div class="col-9">
-                        <div class="card"></div>
+                    <div class="col-10 p-3">
+                        <!--  Copied wholesale and adapted from getbootstrap.com-->
+                        <a href="https://kevinstaresdarbon.github.io/SimonGame/" target="_blank">
+                            <div class="card text-center h-100 w-100">
+                                <img src="./assets/images/simon-game.jpg" class="card-img" alt="..."
+                                    style="min-height: 20rem; max-height: 20rem;">
+                                <div
+                                    class="card-img-overlay p-3 d-flex flex-column justify-content-end mt-auto custom-bg">
+                                    <h5 class="card-title w-100 scaling-fs">Simon's Game</h5>
+                                    <p class="card-text w-100 scaling-fs">A little JS and JQuery with animations, HTML5
+                                        CSS3. Best viewed on a desktop</p>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row" id="work-secondary">
             <div class="col-12 p-0">
-                <div class="row" style="min-height: 16rem;">
-                    <div class="col-3"></div>
-                    <div class="col-9" style="min-height: 16rem;">
-                        <div class="row" style="min-height: 16rem;">
-                            <div class="col-12 col-md-6 col-xxl-3">
-                                <div class="card"></div>
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-10 p-3">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 col-xxl-3 mb-3">
+                                <a href="https://kevinstaresdarbon.github.io/snippet_cheatsheet/" target="_blank">
+                                    <div class="card text-center mw-100">
+                                        <img src="./assets/images/css-snippets.jpg" class="card-img" alt="..."
+                                            style="min-height: 14rem; max-height: 14rem;">
+                                        <div
+                                            class="card-img-overlay d-flex flex-column justify-content-end mt-auto custom-bg">
+                                            <h5 class="card-title w-100">CSS Snippets Cheatsheet</h5>
+                                            <p class="card-text w-100">Responsive CSS Grid with interesting box shadow.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="col-12 col-md-6 col-xxl-3">
-                                <div class="card"></div>
+                            <div class="col-12 col-lg-6 col-xxl-3 mb-3">
+                                <a href="#work">
+                                    <div class="card text-center mw-100">
+                                        <img src="./assets/images/02-portfolio-3.jpg" class="card-img" alt="..."
+                                            style="min-height: 14rem; max-height: 14rem;">
+                                        <div
+                                            class="card-img-overlay d-flex flex-column justify-content-end mt-auto custom-bg">
+                                            <h5 class="card-title w-100">Placeholder</h5>
+                                            <p class="card-text w-100">Yet to be anounced.</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="col-12 col-md-6 col-xxl-3">
-                                <div class="card"></div>
+                            <div class="col-12 col-lg-6 col-xxl-3 mb-3">
+                                <a href="#work">
+                                    <div class="card text-center  mw-100">
+                                        <img src="./assets/images/02-portfolio-1.jpg" class="card-img" alt="..."
+                                            style="min-height: 14rem; max-height: 14rem;">
+                                        <div
+                                            class="card-img-overlay d-flex flex-column justify-content-end mt-auto custom-bg">
+                                            <h5 class="card-title w-100">Placeholder</h5>
+                                            <p class="card-text w-100">Yet to be anounced.</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
-                            <div class="col-12 col-md-6 col-xxl-3">
-                                <div class="card"></div>
+                            <div class="col-12 col-lg-6 col-xxl-3 mb-3">
+                                <a href="#work">
+                                    <div class="card text-center mw-100">
+                                        <img src="./assets/images/02-portfolio-4.jpg" class="card-img" alt="..."
+                                            style="min-height: 14rem; max-height: 14rem;">
+                                        <div
+                                            class="card-img-overlay d-flex flex-column justify-content-end mt-auto custom-bg">
+                                            <h5 class="card-title w-100">Placeholder</h5>
+                                            <p class="card-text w-100">Yet to be anounced</p>
+                                        </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -130,10 +189,10 @@
         <div class="row" id="contact" style="min-height: 8rem">
             <div class="col-12 p-0">
                 <div class="row" style="min-height: 8rem">
-                    <div class="col-3">
-                        <p>Contact Me</p>
+                    <div class="col-2">
+                        <p class="fs-1 fw-bold">Contact Me</p>
                     </div>
-                    <div class="col-9">
+                    <div class="col-10">
                         <!-- some contact element goes here-->
                     </div>
                 </div>
