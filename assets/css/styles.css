@@ -90,3 +90,13 @@ a {
     color: var(--theme5);
     background-color: var(--theme4);
 }
+
+ul li{ 
+    list-style: none;
+}
+
+@media only screen and (max-width: 460px){
+    body{
+        min-width: 130%;
+    }
+}
