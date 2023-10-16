@@ -73,6 +73,10 @@ a {
 }
 
 
+.hero{
+    width: calc(100% - 2rem);
+}
+
 .main-content-style {
     border: var(--theme-border-style);
     border-radius: var(--theme-radius);
@@ -133,5 +137,13 @@ ul li {
 @media only screen and (max-width: 460px) {
     body {
         min-width: 130%;
+    }
+
+    #hero{
+        min-width: 100%;
+    }
+
+    .card img{
+        min-width: 100%;
     }
 }
